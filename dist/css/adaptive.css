@@ -1,0 +1,47 @@
+@media only screen and (max-width: 992px) {
+    .row-container{
+        flex-direction: column;
+        padding: 0 16vw;
+    }
+
+    .header{
+        font-size: 3vw;
+    }
+
+    #export-button-desktop{
+        display: none;
+    }
+    #export-button-portable{
+        display: block;
+    }
+    #generate-button {
+        margin-bottom: 2vw;
+    }
+
+    .color-box {
+        width: 24vw;
+        height: 15vw;
+        min-width: unset;
+        min-height: unset;
+    }
+
+    #color-container {
+        flex-direction: row !important;
+        padding: 1vw;
+    }
+
+    #palette-size{
+        margin: 2vw 0;
+    }
+
+    .input-element {
+        width: 100%;
+        height: 6vw;
+        font-size: 2vw;
+        padding: 2vw;
+    }
+
+    .color-preview {
+        height: 3.6vw !important;
+    }
+}
