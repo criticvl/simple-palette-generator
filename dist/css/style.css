@@ -13,6 +13,10 @@ input[type="number"] {
     -moz-appearance: textfield;
 }
 
+body{
+    background-color: #252525;
+}
+
 .icon {
     aspect-ratio: 1 / 1;
     width: 14vw;
@@ -24,7 +28,8 @@ input[type="number"] {
 }
 
 .header {
-    background-color: #f2f2f2;
+    background-color: #353535;
+    color: whitesmoke;
     padding: 1.4vw 1.6vw;
     text-align: center;
     width: min-content;
@@ -38,7 +43,7 @@ input[type="number"] {
     transition: background-color 0.2s linear;
 }
 .header:hover{
-    background-color: #f6f6f6;
+    background-color: #404040;
 }
 
 .color-box {
@@ -79,19 +84,19 @@ input[type="number"] {
     text-align: center;
     user-select: none;
     font-size: 1.34vw;
-    color: #252525;
-    background-color: #E6E6E6;
+    color: whitesmoke;
+    background-color: #353535;
     transition: color 0.2s linear, background-color 0.2s linear;
     border-radius: 0.6vw !important;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: solid 0.1vw #DCDCDC;
+    border: solid 0.1vw #454545;
 }
 
 .input-element:hover{
-    color: #101010;
-    background-color: #f1f1f1;
+    color: white;
+    background-color: #404040;
 }
 
 #generate-button {
@@ -125,9 +130,9 @@ input[type="number"] {
     width: 90%;
     height: 24vw;
     overflow-y: scroll;
-    border: solid 0.4vw #f1f1f1;
+    border: solid 0.4vw #404040;
     border-radius: 0.8vw;
-    background-color: #f6f6f6;
+    background-color: #353535;
 }
 
 #color-container::-webkit-scrollbar {
@@ -135,13 +140,13 @@ input[type="number"] {
 }
 
 #color-container::-webkit-scrollbar-track {
-    background: #f6f6f6;
+    background: rgb(72, 72, 72);
     border-radius: 0.25vw;
     margin: 0.1vw 0;
 }
 
 #color-container::-webkit-scrollbar-thumb {
-    background: rgb(72, 72, 72);
+    background: #f6f6f6;
     border-radius: 0.25vw;
 }
 

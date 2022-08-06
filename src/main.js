@@ -10,12 +10,14 @@ function generatePalette() {
   if (palette_size < 3) {
     var error_paragraph = document.createElement("p");
     error_paragraph.style.fontSize = "2vw";
+    error_paragraph.style.color = "white";
     error_paragraph.textContent = "Palette size must be at least 3";
     document.getElementById("color-container").appendChild(error_paragraph);
     return;
   } else if (palette_size > 16) {
     var error_paragraph = document.createElement("p");
     error_paragraph.style.fontSize = "2vw";
+    error_paragraph.style.color = "white";
     error_paragraph.textContent = "Palette size must be at most 16";
     document.getElementById("color-container").appendChild(error_paragraph);
     return;
